@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CartBuyMedicineActivity">
+
+    <ListView
+        android:id="@+id/listviewha"
+        android:layout_width="351dp"
+        android:layout_height="326dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/txthadtitle"
+        android:layout_width="221dp"
+        android:layout_height="38dp"
+        android:text="Deliver Location:Pune"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/txtbmcarttitle"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:text="Lab Test Cart Items"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/txtbmcarttotalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cost:$2000"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="103dp"
+        android:layout_height="30dp"
+        android:text="select  delivery date"
+        android:textColor="#FFEB3B"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <Button
+        android:id="@+id/btnbmcartdatepicker"
+        style="?android:spinnerStyle"
+        android:layout_width="145dp"
+        android:layout_height="46dp"
+        android:text="10/05/2023"
+        app:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <Button
+        android:id="@+id/btnbmcartcheckout"
+        android:layout_width="121dp"
+        android:layout_height="47dp"
+        android:background="@drawable/input_bg"
+        android:text="CHECKOUT"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <Button
+        android:id="@+id/btnbmcartback"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input_bg"
+        android:text="Back"
+        tools:layout_editor_absoluteY="672dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
